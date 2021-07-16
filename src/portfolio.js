@@ -9,8 +9,8 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Ajay Upreti",
   title: "Hi all, I'm Ajay",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."),
-  resumeLink: "https://drive.google.com/"
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks. Have experience working in a startup."),
+  resumeLink: "https://docs.google.com/document/d/189_xLXkqijymUBOxJZ_KhPnk2Kdk1cydTtCo3UlXvD4/edit?usp=sharing"
 };
 
 // Your Social Media Link
@@ -99,7 +99,7 @@ const educationInfo = {
       logo: require("./assets/images/graphic-era-logo.jpeg"),
       subHeader: "B.Tech. in Computer Science & Engineering",
       duration: "July 2012 - June 2016",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      // desc: "Participated in the research of XXX and published 3 papers.",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
@@ -110,7 +110,7 @@ const educationInfo = {
       logo: require("./assets/images/aps-logo.jpeg"),
       subHeader: "12th",
       duration: "April 2011 - March 2012",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
+      // desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
       descBullets: [
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
       ]
@@ -148,26 +148,29 @@ const workExperiences = {
       role: "Software Engineer",
       company: "Capgemini Engineering",
       companylogo: require("./assets/images/capgemini-logo.jpeg"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      date: "Dec 2018 – Present",
+      desc: "Involved in setup the Front-end Architecture for different products which include best coding practice, scalable and modular architecture for Angular application, reusable code.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
     },
     {
       role: "Front-End Developer",
       company: "Crownstack",
       companylogo: require("./assets/images/crown-logo.jpeg"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "May 2017 – Dec 2018",
+      desc: "Worked on creating multiple web apps from scratch using Angular & Rxjs",
+      descBullets: [
+        "Involved in setup the Front-end Architecture for different products which include best coding practice, scalable and modular architecture for Angular application, reusable code."
+      ]
     },
     {
       role: "Front-End Developer",
       company: "Talkcharge",
       companylogo: require("./assets/images/talk-logo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      date: "Sep 2016 – Apr 2017",
+      desc: "Worked on creating a web app product from scratch using javascript."
     },
   ]
 };
@@ -186,15 +189,23 @@ const openSource = {
 
 const bigProjects = {
   title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  subtitle: "SOME BIG PROJECTS THAT I HAVE WORKED WITH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/cisco-logo.jpeg"),
+      link: ""
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      link: "http://nextu.se/"
+      image: require("./assets/images/unilever-logo.jpeg"),
+      link: ""
+    },
+    {
+      image: require("./assets/images/samsung-logo.jpeg"),
+      link: ""
+    },
+    {
+      image: require("./assets/images/airbus-logo.jpeg"),
+      link: ""
     }
   ]
 };
@@ -203,25 +214,29 @@ const bigProjects = {
 
 const achievementSection = {
 
-  title: emoji("Achievements And Certifications 🏆 "),
-  subtitle: "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
+  title: emoji("Certifications 🏆 "),
+  subtitle: "Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
     {
-      title: "Google Assistant Action",
-      subtitle: "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
-      footerLink: [{ name: "View Google Assistant Action", url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en" }]
+      title: "Next.js : Server-Side Rendering",
+      subtitle: "Completed Certifcation from Linkedin Learning for Next.js",
+      image: require("./assets/images/linkedin-logo.jpeg"),
+      footerLink: [{ name: "Certification", url: "https://www.linkedin.com/learning/react-server-side-rendering-2018/welcome?u=2130370" }]
     },
-
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "React - The Complete Guide",
+      subtitle: "Completed Certifcation from Udemy for React.js",
+      image: require("./assets/images/udemy-logo.jpeg"),
       footerLink: [
-        { name: "Certification", url: "" },
-        { name: "Final Project", url: "" }
+        { name: "Certification", url: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/" }
       ]
+    },
+    {
+      title: "Learning Node.js",
+      subtitle: "Completed Certifcation from Linkedin Learning for Node.js",
+      image: require("./assets/images/linkedin-logo.jpeg"),
+      footerLink: [{ name: "Certification", url: "https://www.linkedin.com/learning/react-server-side-rendering-2018/welcome?u=2130370" }]
     }
   ]
 };

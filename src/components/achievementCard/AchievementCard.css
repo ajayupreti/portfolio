@@ -1,7 +1,7 @@
 .card-image {
   max-width: 100%;
   height: auto;
-  width: 250px;
+  /* width: 250px; */
 }
 .card-title {
   color: #000000;
@@ -30,7 +30,7 @@
 }
 .certificate-image-div {
   position: relative;
-  height: 250px;
+  height: 220px;
   overflow: hidden;
   text-align: center;
 }
