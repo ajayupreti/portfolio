@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.016ddb8e.chunk.css",
-    "main.js": "/portfolio/static/js/main.d7bfe780.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.d7bfe780.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.b84c1b9f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b84c1b9f.js.map",
+    "main.js": "/portfolio/static/js/main.5feaee17.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.5feaee17.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.0dc74945.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0dc74945.js.map",
     "static/js/2.e0178c5e.chunk.js": "/portfolio/static/js/2.e0178c5e.chunk.js",
     "static/js/2.e0178c5e.chunk.js.map": "/portfolio/static/js/2.e0178c5e.chunk.js.map",
     "static/css/3.00373544.chunk.css": "/portfolio/static/css/3.00373544.chunk.css",
     "static/js/3.b07e736c.chunk.js": "/portfolio/static/js/3.b07e736c.chunk.js",
     "static/js/3.b07e736c.chunk.js.map": "/portfolio/static/js/3.b07e736c.chunk.js.map",
     "static/css/4.a922a401.chunk.css": "/portfolio/static/css/4.a922a401.chunk.css",
-    "static/js/4.0718683e.chunk.js": "/portfolio/static/js/4.0718683e.chunk.js",
-    "static/js/4.0718683e.chunk.js.map": "/portfolio/static/js/4.0718683e.chunk.js.map",
+    "static/js/4.0f771a7a.chunk.js": "/portfolio/static/js/4.0f771a7a.chunk.js",
+    "static/js/4.0f771a7a.chunk.js.map": "/portfolio/static/js/4.0f771a7a.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ff2515925ac7f832d331fd2121886419.js": "/portfolio/precache-manifest.ff2515925ac7f832d331fd2121886419.js",
+    "precache-manifest.5dae5c153ee7517993c5a760d8ef417d.js": "/portfolio/precache-manifest.5dae5c153ee7517993c5a760d8ef417d.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/3.00373544.chunk.css.map": "/portfolio/static/css/3.00373544.chunk.css.map",
     "static/css/4.a922a401.chunk.css.map": "/portfolio/static/css/4.a922a401.chunk.css.map",
@@ -48,9 +48,9 @@
     "static/media/unilever-logo.jpeg": "/portfolio/static/media/unilever-logo.75acecdf.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.b84c1b9f.js",
+    "static/js/runtime-main.0dc74945.js",
     "static/js/2.e0178c5e.chunk.js",
     "static/css/main.016ddb8e.chunk.css",
-    "static/js/main.d7bfe780.chunk.js"
+    "static/js/main.5feaee17.chunk.js"
   ]
 }
