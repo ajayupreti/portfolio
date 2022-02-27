@@ -9,7 +9,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   username: "Ajay Upreti",
   title: "Hi all, I'm Ajay",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks. Have experience working in a startup."),
+  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Angular / Vue.js / Nodejs and some other cool libraries and frameworks. Have experience working in a startup."),
   resumeLink: "https://drive.google.com/file/d/1-dsONNX5FZVjZJFyzIWdXWOeYxnXLqA3/view?usp=sharing"
 };
 
@@ -145,7 +145,18 @@ const workExperiences = {
   viewExperiences: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
+      role: "Senior Software Engineer",
+      company: "Publicis Sapient",
+      companylogo: require("https://avatars.githubusercontent.com/u/461655?s=200&v=4"),
+      date: "May 2021 – Present",
+      desc: "Involved in setup the Front-end Architecture for different products which include best coding practice, scalable and modular architecture for Angular application, reusable code.",
+      // descBullets: [
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      //   "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+      // ]
+    },
+    {
+      role: "Senior Software Engineer",
       company: "Capgemini Engineering",
       companylogo: require("./assets/images/capgemini-logo.jpeg"),
       date: "Dec 2018 – Present",
