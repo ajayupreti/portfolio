@@ -147,7 +147,7 @@ const workExperiences = {
     {
       role: "Senior Software Engineer",
       company: "Publicis Sapient",
-      companylogo: require("https://avatars.githubusercontent.com/u/461655?s=200&v=4"),
+      companylogo: require("https://www.forgerock.com/sites/default/files/2020-11/publicis-sapient-logo.jpg"),
       date: "May 2021 – Present",
       desc: "Involved in setup the Front-end Architecture for different products which include best coding practice, scalable and modular architecture for Angular application, reusable code.",
       // descBullets: [
