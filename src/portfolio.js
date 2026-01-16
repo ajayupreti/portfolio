@@ -1,4 +1,3 @@
-﻿
 /* Change this file to get your personal Portfolio */
 
 // Your Summary And Greeting Section
@@ -8,9 +7,10 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Your Summary And Greeting Section */
   username: "Ajay Upreti",
-  title: "Hi all, I'm Ajay",
-  subTitle: emoji("A passionate Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Angular / Vue.js / Nodejs and some other cool libraries and frameworks. Have experience working in a startup."),
-  resumeLink: "https://drive.google.com/file/d/1-dsONNX5FZVjZJFyzIWdXWOeYxnXLqA3/view?usp=sharing"
+  title: "Hi, I'm Ajay Upreti.",
+  subTitle: emoji("Senior Software Engineer — building scalable front-end applications with React, Angular and Node. I design and ship high-quality products that solve customer problems."),
+  // Resume link (kept as Google Drive per your instruction)
+  resumeLink: "https://drive.google.com/file/d/1vXJKwm0dez32A52sY-J_aYcusnnQKUDd/view?usp=sharing"
 };
 
 // Your Social Media Link
@@ -303,4 +303,4 @@ const twitterDetails = {
   userName : "twitter"//Replace "twitter" with your twitter username without @
 
 };
-export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, contactInfo , twitterDetails};
+export { greeting, socialMediaLinks, skillsSection, educationInfo, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, contactInfo , twitterDetails }
