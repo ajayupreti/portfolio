@@ -1,0 +1,25 @@
+.nvmrc
+  3516074f93542700 1
+package.json
+  3516074f93542700 9-11
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.1.8",
+  "base_commit_sha": "59f22ce7e1befd3dbb190d234307b0ec5eae83cc",
+  "prompts": {
+    "3516074f93542700": {
+      "agent_id": {
+        "tool": "DeputyDev",
+        "id": "461140",
+        "model": "AUTO"
+      },
+      "human_author": "ajay upreti <ajay.upreti@1mg.com>",
+      "messages": [],
+      "total_additions": 4,
+      "total_deletions": 0,
+      "accepted_lines": 4,
+      "overriden_lines": 0
+    }
+  }
+}
